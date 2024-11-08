@@ -24,7 +24,7 @@ devtools::install_github("stat545ubc-2024/customsummary")
 
 ## Usage
 
-To get started with customsummary, load the library and use
+To get started with using customsummary, load the library and use
 custom_summary() on a numeric vector to obtain the mean, median, and
 standard deviation.
 

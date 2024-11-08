@@ -1,5 +1,5 @@
 Package: customsummary
-Title: Designed to calculate customized summary statistics (mean, median, and standard deviation) for a numeric vector
+Title: Calculates customized summary statistics (mean, median, and standard deviation) for a numeric vector
 Version: 0.1.0
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
@@ -10,6 +10,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Imports: 
-    stats,
+    stats
+Suggests: 
     testthat
 Config/testthat/edition: 3

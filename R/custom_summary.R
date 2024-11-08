@@ -41,7 +41,7 @@ custom_summary <- function(x, na.rm = FALSE, ...) {
     median = stats::median(x, na.rm = na.rm),
     sd = stats::sd(x, na.rm = na.rm)
   )
-
+  # Return the output
   return(summary_stats)
 }
 
