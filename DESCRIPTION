@@ -1,0 +1,15 @@
+Package: customsummary
+Title: Designed to calculate customized summary statistics (mean, median, and standard deviation) for a numeric vector
+Version: 0.1.0
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The customsummary package provides a function, custom_summary(), designed to calculate customized summary statistics (mean, median, and standard deviation) for a numeric vector. It’s flexible in handling missing values and allows for additional arguments to be passed to functions where applicable, such as trim in the mean() function.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    stats,
+    testthat
+Config/testthat/edition: 3
